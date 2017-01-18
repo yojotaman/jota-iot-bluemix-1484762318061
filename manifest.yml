@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jota-iot-bluemix
+  host: jota-iot-bluemix
+  disk_quota: 1024M
+  services:
+  - jota-iot-bluemix-cloudantNoSQLDB
+  - jota-iot-bluemix-iotf-service
